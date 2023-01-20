@@ -1,18 +1,19 @@
-#  QuickReceipts
+#  ReceiptGenius
 
 A simple system designed to speed up the process of producing receipts for customers.
 
 ---
 
-## Technologies & Installation
+## Technologies, Libraries & Installation
 
 This project leverages python 3.7. Docs below:
 
 * [python](https://docs.python.org/3/)
+* [argparse](https://docs.python.org/3/library/argparse.html)
 
 ---
 
-## Walkthrough
+## Main Walkthrough
 
 1. First, a Receipt class is created to store information about the receipt such as the customer's name, purchase items, and total cost.
 
@@ -49,11 +50,21 @@ print_receipt(new_receipt)
 
 This is just a simple example, and in a real-world scenario, you may want to consider additional features such as the ability to save receipts as files, or to print receipts on a physical printer.
 
-
 ---
 
-## Contributors
+## CLI Tool Usage
 
+Run the script from the command line and pass in the necessary arguments
+
+```
+python receipt_tool.py --name "John Smith" --items "item1:10.5,item2:5" --total 15.5
+```
+
+The above command will run the script, parse the arguments passed and generate the receipt for "John Smith" with items "item1:10.5,item2:5" and total cost of 15.5
+
+This is just one example of how to create a CLI tool, and in a real-world scenario, you may want to consider additional features such as the ability to save receipts as files, or to print receipts on a physical printer.
+
+## Contributors
 
 *  **Quintin Bland** <span>&nbsp;&nbsp;</span> |
 <span>&nbsp;&nbsp;</span> *email:* quintinbland2@gmail.com <span>&nbsp;&nbsp;</span>|
