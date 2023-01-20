@@ -1,4 +1,4 @@
-#  QuickReceipts
+#  ReceiptGenius
 
 A simple system designed to speed up the process of producing receipts for customers.
 
