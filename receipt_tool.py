@@ -16,4 +16,12 @@ items = [tuple(item.split(':')) for item in args.items.split(',')]
 new_receipt = Receipt(args.name, items, args.total)
 print_receipt(new_receipt)
 
+# Enabling the user to save or print the receipt
+parser.add_argument('--save', type=str, help='save receipt in file')
+parser.add_argument('--print', action='store_true', help='print receipt')
+
+
+
+
+
 
