@@ -10,6 +10,7 @@ This project leverages python 3.7. Docs below:
 
 * [python](https://docs.python.org/3/)
 * [argparse](https://docs.python.org/3/library/argparse.html)
+* [win32py](https://pypi.org/project/pywin32/)
 
 ---
 
