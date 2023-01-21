@@ -63,6 +63,8 @@ python receipt_tool.py --name "John Smith" --items "item1:10.5,item2:5" --total 
 
 The above command will run the script, parse the arguments passed and generate the receipt for "John Smith" with items "item1:10.5,item2:5" and total cost of 15.5
 
+![receipt_generator](https://user-images.githubusercontent.com/97932685/213647308-4d47f006-4cdc-4bcb-89a9-5fadd7bd25ef.jpg)
+
 This is just one example of how to create a CLI tool, and in a real-world scenario, you may want to consider additional features such as the ability to save receipts as files, or to print receipts on a physical printer.
 
 ## Contributors
